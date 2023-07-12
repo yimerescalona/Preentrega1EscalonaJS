@@ -65,3 +65,9 @@ alert(
   ", tu vuelto es: " +
   cambio + " pesos"
 );
+function despedida (){
+  console.log(1)
+  return "Muchas gracias por tu compra"
+}
+const despido = despedida();
+console.log(despido) 
